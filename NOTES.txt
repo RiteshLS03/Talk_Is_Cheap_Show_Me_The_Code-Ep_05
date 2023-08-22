@@ -1,0 +1,51 @@
+1) Is JSX mandatory for React ?
+
+No , It's not mandatory to use JSX in React. we can create our app without jsx but jsx helps us to write html like syntax in js.
+
+2) Is ES6 mandatory for React ?
+
+No , It's not 
+
+3) {TitleComponent} Vs {<TitleComponent/>} Vs {<TitleComponent></TitleComponent>} in JSX ?
+
+{TitleCompnent} It's like a React Element or variable. 
+
+{<TitleComponent/> It's a React Component with no child elements
+
+{<TitleComponent/> It's used while need to add child elements
+
+4) How can i write comments in JSX ?
+
+{/* comment */}
+
+5) What is <React.Fragement></React.Fragement> and <></>?
+
+<React.Fragement></React.Fragement> tag are used to bundle the code. as we have jsx only supports the one parent element . That's why we need to use <React.Fragement></React.Fragement> . The <></> Tag short code of React.Fragement Tag
+
+7) What is Virtual DOM ?
+
+Virtual DOM is a representation of actual DOM. Virtual DOM uses Roconciliation process that uses Diff Algorithm to differenciate between tree.
+
+8) What is Reconciliation in React ?
+
+The Reconciliation is process where the Diff Algorithm is used and When Diffing Algorithm is Diffing two trees, React first compares the two root elements. The Behavior is different depending on the types of the root elements
+
+9) What is React Fiber ?
+
+React Fiber is new way of Reconciliation. 
+
+10) Why we need Keys in React ? when do we need keys in React ?
+
+Keys plays an important role on Virtual DOM to identify where change happened what changes are maded according to change what to render . it will render only that portion of the dom and it's identified by dom. we need to use when there is list of elements.
+
+10) Can we use index as keys in React ?
+
+Yes we can use index but it's a good way . if there is no key then we can use index as key
+
+11) What is props in React ? 
+
+Props are like arguement and parameters. we pass props to jsx 
+
+12) What is config driven UI ? 
+
+TO render the data/component according to the need and it is controled by the backend
